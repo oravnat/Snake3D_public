@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+# dirs
+.gradle/
+.idea/
+.cxx/
+build/
+x64/
+.vs/
