@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2B52EF42E1D9C71000BB2E0 /* snake3d3_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52EF32E1D9C71000BB2E0 /* snake3d3_main.cpp */; };
+		B2B52F112E1D9F5B000BB2E0 /* Bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52EFA2E1D9F5B000BB2E0 /* Bullet.cpp */; };
+		B2B52F122E1D9F5B000BB2E0 /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52EFE2E1D9F5B000BB2E0 /* Entity.cpp */; };
+		B2B52F132E1D9F5B000BB2E0 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52F042E1D9F5B000BB2E0 /* Player.cpp */; };
+		B2B52F142E1D9F5B000BB2E0 /* Tail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52F0C2E1D9F5B000BB2E0 /* Tail.cpp */; };
+		B2B52F152E1D9F5B000BB2E0 /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52F0E2E1D9F5B000BB2E0 /* Vector.cpp */; };
+		B2B52F162E1D9F5B000BB2E0 /* SnakeGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52F082E1D9F5B000BB2E0 /* SnakeGame.cpp */; };
+		B2B52F172E1D9F5B000BB2E0 /* SnakeRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52F0A2E1D9F5B000BB2E0 /* SnakeRenderer.cpp */; };
+		B2B52F182E1D9F5B000BB2E0 /* Ball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52EF62E1D9F5B000BB2E0 /* Ball.cpp */; };
+		B2B52F192E1D9F5B000BB2E0 /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52EFC2E1D9F5B000BB2E0 /* Car.cpp */; };
+		B2B52F1A2E1D9F5B000BB2E0 /* Prize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52F062E1D9F5B000BB2E0 /* Prize.cpp */; };
+		B2B52F1B2E1D9F5B000BB2E0 /* Wall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52F102E1D9F5B000BB2E0 /* Wall.cpp */; };
+		B2B52F1C2E1D9F5B000BB2E0 /* BaseGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52EF82E1D9F5B000BB2E0 /* BaseGame.cpp */; };
+		B2B52F1D2E1D9F5B000BB2E0 /* Level.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52EFF2E1D9F5B000BB2E0 /* Level.cpp */; };
+		B2B52F1E2E1D9F5B000BB2E0 /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52F012E1D9F5B000BB2E0 /* Matrix.cpp */; };
+		B2B52F272E1E80CB000BB2E0 /* Plane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52F262E1E80CB000BB2E0 /* Plane.cpp */; };
+		B2B52F2B2E1E897D000BB2E0 /* Sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52F2A2E1E897D000BB2E0 /* Sphere.cpp */; };
+		B2B52F2E2E1E89B4000BB2E0 /* Door.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52F2D2E1E89B4000BB2E0 /* Door.cpp */; };
+		B2B52F322E1E8C73000BB2E0 /* TakableObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52F312E1E8C73000BB2E0 /* TakableObject.cpp */; };
+		B2B52F352E1E92EF000BB2E0 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B52F342E1E92EF000BB2E0 /* GLUT.framework */; };
+		B2B52F372E1E92F4000BB2E0 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B52F362E1E92F4000BB2E0 /* OpenGL.framework */; };
+		B2B52F392E2A9030000BB2E0 /* PlatformPC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52F382E2A9030000BB2E0 /* PlatformPC.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B2B52EE62E06D0D0000BB2E0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B2B52EE82E06D0D0000BB2E0 /* Snake3D_public */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Snake3D_public; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2B52EF32E1D9C71000BB2E0 /* snake3d3_main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = snake3d3_main.cpp; sourceTree = "<group>"; };
+		B2B52EF52E1D9F5B000BB2E0 /* Ball.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Ball.hpp; path = ../lib/Ball.hpp; sourceTree = SOURCE_ROOT; };
+		B2B52EF62E1D9F5B000BB2E0 /* Ball.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Ball.cpp; path = ../lib/Ball.cpp; sourceTree = SOURCE_ROOT; };
+		B2B52EF72E1D9F5B000BB2E0 /* BaseGame.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = BaseGame.hpp; path = ../lib/BaseGame.hpp; sourceTree = SOURCE_ROOT; };
+		B2B52EF82E1D9F5B000BB2E0 /* BaseGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BaseGame.cpp; path = ../lib/BaseGame.cpp; sourceTree = SOURCE_ROOT; };
+		B2B52EF92E1D9F5B000BB2E0 /* Bullet.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Bullet.hpp; path = ../lib/Bullet.hpp; sourceTree = SOURCE_ROOT; };
+		B2B52EFA2E1D9F5B000BB2E0 /* Bullet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bullet.cpp; path = ../lib/Bullet.cpp; sourceTree = SOURCE_ROOT; };
+		B2B52EFB2E1D9F5B000BB2E0 /* Car.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Car.hpp; path = ../lib/Car.hpp; sourceTree = SOURCE_ROOT; };
+		B2B52EFC2E1D9F5B000BB2E0 /* Car.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Car.cpp; path = ../lib/Car.cpp; sourceTree = SOURCE_ROOT; };
+		B2B52EFD2E1D9F5B000BB2E0 /* Entity.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Entity.hpp; path = ../lib/Entity.hpp; sourceTree = SOURCE_ROOT; };
+		B2B52EFE2E1D9F5B000BB2E0 /* Entity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Entity.cpp; path = ../lib/Entity.cpp; sourceTree = SOURCE_ROOT; };
+		B2B52EFF2E1D9F5B000BB2E0 /* Level.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Level.cpp; path = ../lib/Level.cpp; sourceTree = SOURCE_ROOT; };
+		B2B52F002E1D9F5B000BB2E0 /* Matrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Matrix.hpp; path = ../lib/Matrix.hpp; sourceTree = SOURCE_ROOT; };
+		B2B52F012E1D9F5B000BB2E0 /* Matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Matrix.cpp; path = ../lib/Matrix.cpp; sourceTree = SOURCE_ROOT; };
+		B2B52F022E1D9F5B000BB2E0 /* MeshReader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = MeshReader.hpp; path = ../lib/MeshReader.hpp; sourceTree = SOURCE_ROOT; };
+		B2B52F032E1D9F5B000BB2E0 /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Player.hpp; path = ../lib/Player.hpp; sourceTree = SOURCE_ROOT; };
+		B2B52F042E1D9F5B000BB2E0 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Player.cpp; path = ../lib/Player.cpp; sourceTree = SOURCE_ROOT; };
+		B2B52F052E1D9F5B000BB2E0 /* Prize.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Prize.hpp; path = ../lib/Prize.hpp; sourceTree = SOURCE_ROOT; };
+		B2B52F062E1D9F5B000BB2E0 /* Prize.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Prize.cpp; path = ../lib/Prize.cpp; sourceTree = SOURCE_ROOT; };
+		B2B52F072E1D9F5B000BB2E0 /* SnakeGame.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = SnakeGame.hpp; path = ../lib/SnakeGame.hpp; sourceTree = SOURCE_ROOT; };
+		B2B52F082E1D9F5B000BB2E0 /* SnakeGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SnakeGame.cpp; path = ../lib/SnakeGame.cpp; sourceTree = SOURCE_ROOT; };
+		B2B52F092E1D9F5B000BB2E0 /* SnakeRenderer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = SnakeRenderer.hpp; path = ../lib/SnakeRenderer.hpp; sourceTree = SOURCE_ROOT; };
+		B2B52F0A2E1D9F5B000BB2E0 /* SnakeRenderer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SnakeRenderer.cpp; path = ../lib/SnakeRenderer.cpp; sourceTree = SOURCE_ROOT; };
+		B2B52F0B2E1D9F5B000BB2E0 /* Tail.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Tail.hpp; path = ../lib/Tail.hpp; sourceTree = SOURCE_ROOT; };
+		B2B52F0C2E1D9F5B000BB2E0 /* Tail.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Tail.cpp; path = ../lib/Tail.cpp; sourceTree = SOURCE_ROOT; };
+		B2B52F0D2E1D9F5B000BB2E0 /* Vector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Vector.hpp; path = ../lib/Vector.hpp; sourceTree = SOURCE_ROOT; };
+		B2B52F0E2E1D9F5B000BB2E0 /* Vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Vector.cpp; path = ../lib/Vector.cpp; sourceTree = SOURCE_ROOT; };
+		B2B52F0F2E1D9F5B000BB2E0 /* Wall.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Wall.hpp; path = ../lib/Wall.hpp; sourceTree = SOURCE_ROOT; };
+		B2B52F102E1D9F5B000BB2E0 /* Wall.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Wall.cpp; path = ../lib/Wall.cpp; sourceTree = SOURCE_ROOT; };
+		B2B52F232E1DA2DD000BB2E0 /* defines.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = defines.hpp; path = ../lib/defines.hpp; sourceTree = SOURCE_ROOT; };
+		B2B52F242E1DA2DD000BB2E0 /* Level.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Level.hpp; path = ../lib/Level.hpp; sourceTree = SOURCE_ROOT; };
+		B2B52F252E1E80CB000BB2E0 /* Plane.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Plane.hpp; path = ../lib/Plane.hpp; sourceTree = SOURCE_ROOT; };
+		B2B52F262E1E80CB000BB2E0 /* Plane.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Plane.cpp; path = ../lib/Plane.cpp; sourceTree = SOURCE_ROOT; };
+		B2B52F282E1E8943000BB2E0 /* Model.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Model.hpp; path = ../lib/Model.hpp; sourceTree = SOURCE_ROOT; };
+		B2B52F292E1E897D000BB2E0 /* Sphere.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Sphere.hpp; path = ../lib/Sphere.hpp; sourceTree = SOURCE_ROOT; };
+		B2B52F2A2E1E897D000BB2E0 /* Sphere.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Sphere.cpp; path = ../lib/Sphere.cpp; sourceTree = SOURCE_ROOT; };
+		B2B52F2C2E1E89B4000BB2E0 /* Door.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Door.hpp; path = ../lib/Door.hpp; sourceTree = SOURCE_ROOT; };
+		B2B52F2D2E1E89B4000BB2E0 /* Door.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Door.cpp; path = ../lib/Door.cpp; sourceTree = SOURCE_ROOT; };
+		B2B52F2F2E1E8BB4000BB2E0 /* OpenGL.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = OpenGL.hpp; path = ../lib/OpenGL.hpp; sourceTree = SOURCE_ROOT; };
+		B2B52F302E1E8C73000BB2E0 /* TakableObject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = TakableObject.hpp; path = ../lib/TakableObject.hpp; sourceTree = SOURCE_ROOT; };
+		B2B52F312E1E8C73000BB2E0 /* TakableObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TakableObject.cpp; path = ../lib/TakableObject.cpp; sourceTree = SOURCE_ROOT; };
+		B2B52F342E1E92EF000BB2E0 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		B2B52F362E1E92F4000BB2E0 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		B2B52F382E2A9030000BB2E0 /* PlatformPC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlatformPC.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2B52EE52E06D0D0000BB2E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B52F352E1E92EF000BB2E0 /* GLUT.framework in Frameworks */,
+				B2B52F372E1E92F4000BB2E0 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2B52EDF2E06D0D0000BB2E0 = {
+			isa = PBXGroup;
+			children = (
+				B2B52F382E2A9030000BB2E0 /* PlatformPC.cpp */,
+				B2B52EE92E06D0D0000BB2E0 /* Products */,
+				B2B52EF32E1D9C71000BB2E0 /* snake3d3_main.cpp */,
+				B2B52EF52E1D9F5B000BB2E0 /* Ball.hpp */,
+				B2B52EF62E1D9F5B000BB2E0 /* Ball.cpp */,
+				B2B52EF72E1D9F5B000BB2E0 /* BaseGame.hpp */,
+				B2B52EF82E1D9F5B000BB2E0 /* BaseGame.cpp */,
+				B2B52EF92E1D9F5B000BB2E0 /* Bullet.hpp */,
+				B2B52EFA2E1D9F5B000BB2E0 /* Bullet.cpp */,
+				B2B52EFB2E1D9F5B000BB2E0 /* Car.hpp */,
+				B2B52EFC2E1D9F5B000BB2E0 /* Car.cpp */,
+				B2B52F232E1DA2DD000BB2E0 /* defines.hpp */,
+				B2B52F2C2E1E89B4000BB2E0 /* Door.hpp */,
+				B2B52F2D2E1E89B4000BB2E0 /* Door.cpp */,
+				B2B52EFD2E1D9F5B000BB2E0 /* Entity.hpp */,
+				B2B52EFE2E1D9F5B000BB2E0 /* Entity.cpp */,
+				B2B52F242E1DA2DD000BB2E0 /* Level.hpp */,
+				B2B52EFF2E1D9F5B000BB2E0 /* Level.cpp */,
+				B2B52F002E1D9F5B000BB2E0 /* Matrix.hpp */,
+				B2B52F012E1D9F5B000BB2E0 /* Matrix.cpp */,
+				B2B52F022E1D9F5B000BB2E0 /* MeshReader.hpp */,
+				B2B52F282E1E8943000BB2E0 /* Model.hpp */,
+				B2B52F2F2E1E8BB4000BB2E0 /* OpenGL.hpp */,
+				B2B52F252E1E80CB000BB2E0 /* Plane.hpp */,
+				B2B52F262E1E80CB000BB2E0 /* Plane.cpp */,
+				B2B52F032E1D9F5B000BB2E0 /* Player.hpp */,
+				B2B52F042E1D9F5B000BB2E0 /* Player.cpp */,
+				B2B52F052E1D9F5B000BB2E0 /* Prize.hpp */,
+				B2B52F062E1D9F5B000BB2E0 /* Prize.cpp */,
+				B2B52F072E1D9F5B000BB2E0 /* SnakeGame.hpp */,
+				B2B52F082E1D9F5B000BB2E0 /* SnakeGame.cpp */,
+				B2B52F092E1D9F5B000BB2E0 /* SnakeRenderer.hpp */,
+				B2B52F0A2E1D9F5B000BB2E0 /* SnakeRenderer.cpp */,
+				B2B52F292E1E897D000BB2E0 /* Sphere.hpp */,
+				B2B52F2A2E1E897D000BB2E0 /* Sphere.cpp */,
+				B2B52F0B2E1D9F5B000BB2E0 /* Tail.hpp */,
+				B2B52F0C2E1D9F5B000BB2E0 /* Tail.cpp */,
+				B2B52F302E1E8C73000BB2E0 /* TakableObject.hpp */,
+				B2B52F312E1E8C73000BB2E0 /* TakableObject.cpp */,
+				B2B52F0D2E1D9F5B000BB2E0 /* Vector.hpp */,
+				B2B52F0E2E1D9F5B000BB2E0 /* Vector.cpp */,
+				B2B52F0F2E1D9F5B000BB2E0 /* Wall.hpp */,
+				B2B52F102E1D9F5B000BB2E0 /* Wall.cpp */,
+				B2B52F332E1E92EF000BB2E0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B2B52EE92E06D0D0000BB2E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2B52EE82E06D0D0000BB2E0 /* Snake3D_public */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2B52F332E1E92EF000BB2E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2B52F362E1E92F4000BB2E0 /* OpenGL.framework */,
+				B2B52F342E1E92EF000BB2E0 /* GLUT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2B52EE72E06D0D0000BB2E0 /* Snake3D_public */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2B52EEF2E06D0D0000BB2E0 /* Build configuration list for PBXNativeTarget "Snake3D_public" */;
+			buildPhases = (
+				B2B52EE42E06D0D0000BB2E0 /* Sources */,
+				B2B52EE52E06D0D0000BB2E0 /* Frameworks */,
+				B2B52EE62E06D0D0000BB2E0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snake3D_public;
+			packageProductDependencies = (
+			);
+			productName = Snake3D_public;
+			productReference = B2B52EE82E06D0D0000BB2E0 /* Snake3D_public */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2B52EE02E06D0D0000BB2E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					B2B52EE72E06D0D0000BB2E0 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = B2B52EE32E06D0D0000BB2E0 /* Build configuration list for PBXProject "Snake3D_public" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2B52EDF2E06D0D0000BB2E0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B2B52EE92E06D0D0000BB2E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2B52EE72E06D0D0000BB2E0 /* Snake3D_public */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2B52EE42E06D0D0000BB2E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B52F112E1D9F5B000BB2E0 /* Bullet.cpp in Sources */,
+				B2B52F122E1D9F5B000BB2E0 /* Entity.cpp in Sources */,
+				B2B52F132E1D9F5B000BB2E0 /* Player.cpp in Sources */,
+				B2B52F142E1D9F5B000BB2E0 /* Tail.cpp in Sources */,
+				B2B52F152E1D9F5B000BB2E0 /* Vector.cpp in Sources */,
+				B2B52F162E1D9F5B000BB2E0 /* SnakeGame.cpp in Sources */,
+				B2B52F172E1D9F5B000BB2E0 /* SnakeRenderer.cpp in Sources */,
+				B2B52F2B2E1E897D000BB2E0 /* Sphere.cpp in Sources */,
+				B2B52F182E1D9F5B000BB2E0 /* Ball.cpp in Sources */,
+				B2B52F322E1E8C73000BB2E0 /* TakableObject.cpp in Sources */,
+				B2B52F2E2E1E89B4000BB2E0 /* Door.cpp in Sources */,
+				B2B52F192E1D9F5B000BB2E0 /* Car.cpp in Sources */,
+				B2B52F1A2E1D9F5B000BB2E0 /* Prize.cpp in Sources */,
+				B2B52F272E1E80CB000BB2E0 /* Plane.cpp in Sources */,
+				B2B52F1B2E1D9F5B000BB2E0 /* Wall.cpp in Sources */,
+				B2B52F392E2A9030000BB2E0 /* PlatformPC.cpp in Sources */,
+				B2B52F1C2E1D9F5B000BB2E0 /* BaseGame.cpp in Sources */,
+				B2B52F1D2E1D9F5B000BB2E0 /* Level.cpp in Sources */,
+				B2B52F1E2E1D9F5B000BB2E0 /* Matrix.cpp in Sources */,
+				B2B52EF42E1D9C71000BB2E0 /* snake3d3_main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B2B52EED2E06D0D0000BB2E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = GL_SILENCE_DEPRECATION;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B2B52EEE2E06D0D0000BB2E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B2B52EF02E06D0D0000BB2E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B2B52EF12E06D0D0000BB2E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2B52EE32E06D0D0000BB2E0 /* Build configuration list for PBXProject "Snake3D_public" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B52EED2E06D0D0000BB2E0 /* Debug */,
+				B2B52EEE2E06D0D0000BB2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2B52EEF2E06D0D0000BB2E0 /* Build configuration list for PBXNativeTarget "Snake3D_public" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B52EF02E06D0D0000BB2E0 /* Debug */,
+				B2B52EF12E06D0D0000BB2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2B52EE02E06D0D0000BB2E0 /* Project object */;
+}
