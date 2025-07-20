@@ -29,6 +29,8 @@
 		B2B52F352E1E92EF000BB2E0 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B52F342E1E92EF000BB2E0 /* GLUT.framework */; };
 		B2B52F372E1E92F4000BB2E0 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B52F362E1E92F4000BB2E0 /* OpenGL.framework */; };
 		B2B52F392E2A9030000BB2E0 /* PlatformPC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52F382E2A9030000BB2E0 /* PlatformPC.cpp */; };
+		B2B52F3B2E2D6858000BB2E0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B52F3A2E2D6857000BB2E0 /* AudioToolbox.framework */; };
+		B2B52F3D2E2D68D0000BB2E0 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B52F3C2E2D68D0000BB2E0 /* CoreFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -89,6 +91,8 @@
 		B2B52F342E1E92EF000BB2E0 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		B2B52F362E1E92F4000BB2E0 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		B2B52F382E2A9030000BB2E0 /* PlatformPC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlatformPC.cpp; sourceTree = "<group>"; };
+		B2B52F3A2E2D6857000BB2E0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B2B52F3C2E2D68D0000BB2E0 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +100,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2B52F3D2E2D68D0000BB2E0 /* CoreFoundation.framework in Frameworks */,
 				B2B52F352E1E92EF000BB2E0 /* GLUT.framework in Frameworks */,
 				B2B52F372E1E92F4000BB2E0 /* OpenGL.framework in Frameworks */,
+				B2B52F3B2E2D6858000BB2E0 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +171,8 @@
 		B2B52F332E1E92EF000BB2E0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B2B52F3C2E2D68D0000BB2E0 /* CoreFoundation.framework */,
+				B2B52F3A2E2D6857000BB2E0 /* AudioToolbox.framework */,
 				B2B52F362E1E92F4000BB2E0 /* OpenGL.framework */,
 				B2B52F342E1E92EF000BB2E0 /* GLUT.framework */,
 			);

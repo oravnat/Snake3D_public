@@ -36,6 +36,7 @@
 #if defined(__APPLE__)
 #include <OpenGL/gl3.h>
 #include <GLUT/glut.h>
+#include <AudioToolbox/AudioToolbox.h>
 #else
 #include "GL/glew.h"
 #include "GL/freeglut.h"
@@ -68,8 +69,7 @@ int RunServer();
 double g_nWidth;
 double g_nHeight;
 
-#ifdef WIN32
-LPCWSTR sounds[] = {
+const wchar_t* sounds[] = {
 	L"sounds/welcometosnake3d.wav",
 	L"sounds/take.wav",
 	L"sounds/explosion_deposito.wav",
@@ -77,7 +77,58 @@ LPCWSTR sounds[] = {
 	L"sounds/rock_crash.wav",
 	L"sounds/car_shoot_hit.wav"
 };
+
+#ifdef WIN32
+void InitSound()
+{
+}
+void DeinitSound()
+{
+}
+void PlaySoundByIndex(int index)
+{
+    PlaySound(sounds[index], NULL, SND_FILENAME | SND_ASYNC | SND_NODEFAULT);
+}
+#elif defined(__APPLE__)
+static SystemSoundID soundIDs[6];
+void InitSound()
+{
+    wstring str;
+    for (int i = 0; i < 6; i++)
+    {
+        str = L"/Users/oravnat/Documents/GitHub/Snake3D/";
+        str += sounds[i];
+        CFStringRef soundPath = CFStringCreateWithBytes(kCFAllocatorDefault, (const UInt8 *)str.c_str(), str.length() * sizeof(wchar_t), kCFStringEncodingUTF32LE, false);
+        CFURLRef soundURL = CFURLCreateWithFileSystemPath(NULL, soundPath, kCFURLPOSIXPathStyle, false);
+        OSStatus status = AudioServicesCreateSystemSoundID(soundURL, &soundIDs[i]);
+        
+        if (status != kAudioServicesNoError)
+            std::cerr << "Failed to load sound file." << std::endl;
+        CFRelease(soundURL);
+        CFRelease(soundPath);
+    }
+}
+void DeinitSound()
+{
+    for (int i = 0; i < 6; i++)
+        AudioServicesDisposeSystemSoundID(soundIDs[i]);
+}
+void PlaySoundByIndex(int index)
+{
+    AudioServicesPlaySystemSound(soundIDs[index]);
+}
+#else
+void InitSound()
+{
+}
+void DeinitSound()
+{
+}
+void PlaySoundByIndex(int index)
+{
+}
 #endif
+
 
 void Client_ExecuteServerCommands(float nowSec)
 {
@@ -150,6 +201,7 @@ void SampleDisplay(void)
 							pCar->m_rotation = 0.0;
 							bKeyRotation = false;
 						}
+                    }
 					}
 				}
 			}
@@ -201,11 +253,8 @@ void SampleDisplay(void)
 
 		for (int i = 0; i < 6; i++)
 		{
-#ifdef WIN32
 			if (g_game->IsSoundPlayed(i))
-				PlaySound(sounds[i], NULL, SND_FILENAME | SND_ASYNC | SND_NODEFAULT);
-#endif
-
+                PlaySoundByIndex(i);
 		}
 	}
 
@@ -404,9 +453,7 @@ bool appInit()
 		return false;
 	}
 
-#ifdef WIN32
-	PlaySound(sounds[0], NULL, SND_FILENAME | SND_ASYNC | SND_NODEFAULT);
-#endif
+    PlaySoundByIndex(0);
 
 	if (g_game)
 		g_game->NewGame();
@@ -457,6 +504,8 @@ int main(int argc, char** argv)
 		return RunServer();
 	}
 #endif
+    
+    InitSound();
 
     glutInit(&argc, argv);
 
@@ -508,6 +557,8 @@ int main(int argc, char** argv)
 	* Enter the main FreeGLUT processing loop
 	*/
 	glutMainLoop();
+    
+    DeinitSound();
 
 	return EXIT_SUCCESS;
 }
