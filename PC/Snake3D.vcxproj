@@ -48,6 +48,10 @@
     <ClInclude Include="..\lib\defines.hpp" />
     <ClInclude Include="..\lib\Door.hpp" />
     <ClInclude Include="..\lib\Entity.hpp" />
+    <ClInclude Include="..\lib\GL\freeglut.h" />
+    <ClInclude Include="..\lib\GL\freeglut_ext.h" />
+    <ClInclude Include="..\lib\GL\freeglut_std.h" />
+    <ClInclude Include="..\lib\GL\glew.h" />
     <ClInclude Include="..\lib\Level.hpp" />
     <ClInclude Include="..\lib\Matrix.hpp" />
     <ClInclude Include="..\lib\MeshReader.hpp" />

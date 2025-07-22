@@ -19,6 +19,9 @@
     <Filter Include="Header Files\lib">
       <UniqueIdentifier>{b27ea662-dbb3-432c-b9d8-57e7106856cf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\GL">
+      <UniqueIdentifier>{fb6b4744-7812-4fc6-a023-581cc16f2e73}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PlatformPC.cpp">
@@ -148,6 +151,18 @@
     </ClInclude>
     <ClInclude Include="..\lib\Wall.hpp">
       <Filter>Header Files\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\GL\freeglut.h">
+      <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\GL\freeglut_ext.h">
+      <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\GL\freeglut_std.h">
+      <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\GL\glew.h">
+      <Filter>Header Files\GL</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

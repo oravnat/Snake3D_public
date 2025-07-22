@@ -201,7 +201,6 @@ void SampleDisplay(void)
 							pCar->m_rotation = 0.0;
 							bKeyRotation = false;
 						}
-                    }
 					}
 				}
 			}
