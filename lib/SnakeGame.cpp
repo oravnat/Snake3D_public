@@ -511,7 +511,7 @@ void SnakeGame::SetCamera(SnakeRenderer& renderer, int player)
 			}
 			break;
 		case ViewMode_Up:
-			viewMat = Matrix::RotateX((t_float)(0.5 * M_PI)) *  Matrix::Translate(-150.0, -300.0, -150.0);
+			viewMat = Matrix::RotateX((t_float)(0.5 * M_PI)) *  Matrix::Translate(-50.0, -100.0, -50.0);
 			break;
 		}
 		//renderer.SetModelView(viewMat);

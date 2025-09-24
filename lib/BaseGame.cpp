@@ -15,7 +15,7 @@ const int RIGHT = 1;
 const int LEFT_AIM = 2;
 const int RIGHT_AIM = 3;
 
-BaseGame::BaseGame() : zNear(0.1f), zFar(200.0f), buttons(), buttonsPrevious(), bHandValid()
+BaseGame::BaseGame() : zNear(0.1f), zFar(200.0f), m_screenRotation(0.0), buttons(), buttonsPrevious(), bHandValid()
 {
 	m_bPause = false;
 	m_lastDeletedEntityIndex = 0;
@@ -24,7 +24,6 @@ BaseGame::BaseGame() : zNear(0.1f), zFar(200.0f), buttons(), buttonsPrevious(), 
 		m_entities[i] = NULL;
 	m_bGameServer = true;
 	m_bSavePackets = false;
-	m_screenRotation = 0;
 	m_gameStarted = false;
 	m_currentSecs = 0.0;
 	m_lastUnpauseTime = 0.0;

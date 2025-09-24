@@ -17,9 +17,8 @@
 #if TARGET_MACOS || TARGET_OS_OSX
 #  include <OpenGL/gl3.h>
 #  else // if (TARGET_IOS || TARGET_TVOS)
-#  import <OpenGLES/ES2/gl.h>
-#  import <OpenGLES/ES2/glext.h>
 #  import <OpenGLES/ES3/gl.h>
+#  import <OpenGLES/ES3/glext.h>
 #  define glClearDepth glClearDepthf
 #  endif
 #else

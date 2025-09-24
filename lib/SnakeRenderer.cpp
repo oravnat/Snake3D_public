@@ -20,8 +20,10 @@
 #include <iostream>
 #include "OpenGL.hpp"
 
-#if __APPLE__
+#if TARGET_OS_OSX
 #define GLSL_VERSION "410"
+#elif TARGET_OS_IOS
+#define GLSL_VERSION "300 es"
 #else
 #define GLSL_VERSION "320 es"
 #endif
@@ -382,7 +384,7 @@ void SnakeRenderer::Start3DRendering()
 
     //glEnable(GL_CULL_FACE);
     glDisable(GL_CULL_FACE);
-#if __APPLE__
+#if __APPLE__ && TARGET_OS_OSX
     glPrimitiveRestartIndex(0xFFFFFFFF);
     glEnable(GL_PRIMITIVE_RESTART);
 #else

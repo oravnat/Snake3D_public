@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B20202F72E7C83F900D22A76 /* bullet.obj in Resources */ = {isa = PBXBuildFile; fileRef = B20202F62E7C83F900D22A76 /* bullet.obj */; };
+		B20202FA2E7C844700D22A76 /* f16_model.obj in Resources */ = {isa = PBXBuildFile; fileRef = B20202F92E7C844700D22A76 /* f16_model.obj */; };
+		B20202FB2E7C844700D22A76 /* car_model.obj in Resources */ = {isa = PBXBuildFile; fileRef = B20202F82E7C844700D22A76 /* car_model.obj */; };
+		B20202FE2E7DF45500D22A76 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20202FD2E7DF45500D22A76 /* GLKit.framework */; };
+		B202032D2E7F225E00D22A76 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B202031B2E7F225E00D22A76 /* Player.cpp */; };
+		B202032E2E7F225E00D22A76 /* BaseGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B20203072E7F225E00D22A76 /* BaseGame.cpp */; };
+		B202032F2E7F225E00D22A76 /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B202030B2E7F225E00D22A76 /* Car.cpp */; };
+		B20203302E7F225E00D22A76 /* Sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B20203232E7F225E00D22A76 /* Sphere.cpp */; };
+		B20203312E7F225E00D22A76 /* SnakeGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B202031F2E7F225E00D22A76 /* SnakeGame.cpp */; };
+		B20203322E7F225E00D22A76 /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B20203292E7F225E00D22A76 /* Vector.cpp */; };
+		B20203332E7F225E00D22A76 /* Level.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B20203122E7F225E00D22A76 /* Level.cpp */; };
+		B20203342E7F225E00D22A76 /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B20203102E7F225E00D22A76 /* Entity.cpp */; };
+		B20203352E7F225E00D22A76 /* Wall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B202032B2E7F225E00D22A76 /* Wall.cpp */; };
+		B20203362E7F225E00D22A76 /* Plane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B20203192E7F225E00D22A76 /* Plane.cpp */; };
+		B20203372E7F225E00D22A76 /* Ball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B20203052E7F225E00D22A76 /* Ball.cpp */; };
+		B20203382E7F225E00D22A76 /* Tail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B20203252E7F225E00D22A76 /* Tail.cpp */; };
+		B20203392E7F225E00D22A76 /* Door.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B202030E2E7F225E00D22A76 /* Door.cpp */; };
+		B202033A2E7F225E00D22A76 /* SnakeRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B20203212E7F225E00D22A76 /* SnakeRenderer.cpp */; };
+		B202033B2E7F225E00D22A76 /* Prize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B202031D2E7F225E00D22A76 /* Prize.cpp */; };
+		B202033C2E7F225E00D22A76 /* Bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B20203092E7F225E00D22A76 /* Bullet.cpp */; };
+		B202033D2E7F225E00D22A76 /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B20203142E7F225E00D22A76 /* Matrix.cpp */; };
+		B202033E2E7F225E00D22A76 /* TakableObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B20203272E7F225E00D22A76 /* TakableObject.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B202024C2E61F73100D22A76 /* Snake-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snake-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20202F62E7C83F900D22A76 /* bullet.obj */ = {isa = PBXFileReference; lastKnownFileType = text; name = bullet.obj; path = ../models/bullet.obj; sourceTree = SOURCE_ROOT; };
+		B20202F82E7C844700D22A76 /* car_model.obj */ = {isa = PBXFileReference; lastKnownFileType = text; name = car_model.obj; path = /Users/oravnat/Documents/GitHub/Snake3D/models/car_model.obj; sourceTree = "<absolute>"; };
+		B20202F92E7C844700D22A76 /* f16_model.obj */ = {isa = PBXFileReference; lastKnownFileType = text; name = f16_model.obj; path = /Users/oravnat/Documents/GitHub/Snake3D/models/f16_model.obj; sourceTree = "<absolute>"; };
+		B20202FD2E7DF45500D22A76 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B20202FF2E7F225E00D22A76 /* freeglut.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = freeglut.h; sourceTree = "<group>"; };
+		B20203002E7F225E00D22A76 /* freeglut_ext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = freeglut_ext.h; sourceTree = "<group>"; };
+		B20203012E7F225E00D22A76 /* freeglut_std.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = freeglut_std.h; sourceTree = "<group>"; };
+		B20203022E7F225E00D22A76 /* glew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = glew.h; sourceTree = "<group>"; };
+		B20203042E7F225E00D22A76 /* Ball.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Ball.hpp; sourceTree = "<group>"; };
+		B20203052E7F225E00D22A76 /* Ball.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ball.cpp; sourceTree = "<group>"; };
+		B20203062E7F225E00D22A76 /* BaseGame.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BaseGame.hpp; sourceTree = "<group>"; };
+		B20203072E7F225E00D22A76 /* BaseGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaseGame.cpp; sourceTree = "<group>"; };
+		B20203082E7F225E00D22A76 /* Bullet.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Bullet.hpp; sourceTree = "<group>"; };
+		B20203092E7F225E00D22A76 /* Bullet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Bullet.cpp; sourceTree = "<group>"; };
+		B202030A2E7F225E00D22A76 /* Car.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Car.hpp; sourceTree = "<group>"; };
+		B202030B2E7F225E00D22A76 /* Car.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
+		B202030C2E7F225E00D22A76 /* defines.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = defines.hpp; sourceTree = "<group>"; };
+		B202030D2E7F225E00D22A76 /* Door.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Door.hpp; sourceTree = "<group>"; };
+		B202030E2E7F225E00D22A76 /* Door.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Door.cpp; sourceTree = "<group>"; };
+		B202030F2E7F225E00D22A76 /* Entity.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Entity.hpp; sourceTree = "<group>"; };
+		B20203102E7F225E00D22A76 /* Entity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Entity.cpp; sourceTree = "<group>"; };
+		B20203112E7F225E00D22A76 /* Level.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Level.hpp; sourceTree = "<group>"; };
+		B20203122E7F225E00D22A76 /* Level.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Level.cpp; sourceTree = "<group>"; };
+		B20203132E7F225E00D22A76 /* Matrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Matrix.hpp; sourceTree = "<group>"; };
+		B20203142E7F225E00D22A76 /* Matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix.cpp; sourceTree = "<group>"; };
+		B20203152E7F225E00D22A76 /* MeshReader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MeshReader.hpp; sourceTree = "<group>"; };
+		B20203162E7F225E00D22A76 /* Model.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Model.hpp; sourceTree = "<group>"; };
+		B20203172E7F225E00D22A76 /* OpenGL.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OpenGL.hpp; sourceTree = "<group>"; };
+		B20203182E7F225E00D22A76 /* Plane.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Plane.hpp; sourceTree = "<group>"; };
+		B20203192E7F225E00D22A76 /* Plane.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Plane.cpp; sourceTree = "<group>"; };
+		B202031A2E7F225E00D22A76 /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		B202031B2E7F225E00D22A76 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		B202031C2E7F225E00D22A76 /* Prize.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Prize.hpp; sourceTree = "<group>"; };
+		B202031D2E7F225E00D22A76 /* Prize.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Prize.cpp; sourceTree = "<group>"; };
+		B202031E2E7F225E00D22A76 /* SnakeGame.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SnakeGame.hpp; sourceTree = "<group>"; };
+		B202031F2E7F225E00D22A76 /* SnakeGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SnakeGame.cpp; sourceTree = "<group>"; };
+		B20203202E7F225E00D22A76 /* SnakeRenderer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SnakeRenderer.hpp; sourceTree = "<group>"; };
+		B20203212E7F225E00D22A76 /* SnakeRenderer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SnakeRenderer.cpp; sourceTree = "<group>"; };
+		B20203222E7F225E00D22A76 /* Sphere.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sphere.hpp; sourceTree = "<group>"; };
+		B20203232E7F225E00D22A76 /* Sphere.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sphere.cpp; sourceTree = "<group>"; };
+		B20203242E7F225E00D22A76 /* Tail.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tail.hpp; sourceTree = "<group>"; };
+		B20203252E7F225E00D22A76 /* Tail.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tail.cpp; sourceTree = "<group>"; };
+		B20203262E7F225E00D22A76 /* TakableObject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TakableObject.hpp; sourceTree = "<group>"; };
+		B20203272E7F225E00D22A76 /* TakableObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TakableObject.cpp; sourceTree = "<group>"; };
+		B20203282E7F225E00D22A76 /* Vector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vector.hpp; sourceTree = "<group>"; };
+		B20203292E7F225E00D22A76 /* Vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vector.cpp; sourceTree = "<group>"; };
+		B202032A2E7F225E00D22A76 /* Wall.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Wall.hpp; sourceTree = "<group>"; };
+		B202032B2E7F225E00D22A76 /* Wall.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Wall.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B202024E2E61F73100D22A76 /* Snake-iOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Snake-iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B20202492E61F73100D22A76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20202FE2E7DF45500D22A76 /* GLKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B20202432E61F73100D22A76 = {
+			isa = PBXGroup;
+			children = (
+				B202032C2E7F225E00D22A76 /* lib */,
+				B202024E2E61F73100D22A76 /* Snake-iOS */,
+				B202024D2E61F73100D22A76 /* Products */,
+				B20202F62E7C83F900D22A76 /* bullet.obj */,
+				B20202F82E7C844700D22A76 /* car_model.obj */,
+				B20202F92E7C844700D22A76 /* f16_model.obj */,
+				B20202FC2E7DF45500D22A76 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B202024D2E61F73100D22A76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B202024C2E61F73100D22A76 /* Snake-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B20202FC2E7DF45500D22A76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B20202FD2E7DF45500D22A76 /* GLKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B20203032E7F225E00D22A76 /* GL */ = {
+			isa = PBXGroup;
+			children = (
+				B20202FF2E7F225E00D22A76 /* freeglut.h */,
+				B20203002E7F225E00D22A76 /* freeglut_ext.h */,
+				B20203012E7F225E00D22A76 /* freeglut_std.h */,
+				B20203022E7F225E00D22A76 /* glew.h */,
+			);
+			path = GL;
+			sourceTree = "<group>";
+		};
+		B202032C2E7F225E00D22A76 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				B20203032E7F225E00D22A76 /* GL */,
+				B20203042E7F225E00D22A76 /* Ball.hpp */,
+				B20203052E7F225E00D22A76 /* Ball.cpp */,
+				B20203062E7F225E00D22A76 /* BaseGame.hpp */,
+				B20203072E7F225E00D22A76 /* BaseGame.cpp */,
+				B20203082E7F225E00D22A76 /* Bullet.hpp */,
+				B20203092E7F225E00D22A76 /* Bullet.cpp */,
+				B202030A2E7F225E00D22A76 /* Car.hpp */,
+				B202030B2E7F225E00D22A76 /* Car.cpp */,
+				B202030C2E7F225E00D22A76 /* defines.hpp */,
+				B202030D2E7F225E00D22A76 /* Door.hpp */,
+				B202030E2E7F225E00D22A76 /* Door.cpp */,
+				B202030F2E7F225E00D22A76 /* Entity.hpp */,
+				B20203102E7F225E00D22A76 /* Entity.cpp */,
+				B20203112E7F225E00D22A76 /* Level.hpp */,
+				B20203122E7F225E00D22A76 /* Level.cpp */,
+				B20203132E7F225E00D22A76 /* Matrix.hpp */,
+				B20203142E7F225E00D22A76 /* Matrix.cpp */,
+				B20203152E7F225E00D22A76 /* MeshReader.hpp */,
+				B20203162E7F225E00D22A76 /* Model.hpp */,
+				B20203172E7F225E00D22A76 /* OpenGL.hpp */,
+				B20203182E7F225E00D22A76 /* Plane.hpp */,
+				B20203192E7F225E00D22A76 /* Plane.cpp */,
+				B202031A2E7F225E00D22A76 /* Player.hpp */,
+				B202031B2E7F225E00D22A76 /* Player.cpp */,
+				B202031C2E7F225E00D22A76 /* Prize.hpp */,
+				B202031D2E7F225E00D22A76 /* Prize.cpp */,
+				B202031E2E7F225E00D22A76 /* SnakeGame.hpp */,
+				B202031F2E7F225E00D22A76 /* SnakeGame.cpp */,
+				B20203202E7F225E00D22A76 /* SnakeRenderer.hpp */,
+				B20203212E7F225E00D22A76 /* SnakeRenderer.cpp */,
+				B20203222E7F225E00D22A76 /* Sphere.hpp */,
+				B20203232E7F225E00D22A76 /* Sphere.cpp */,
+				B20203242E7F225E00D22A76 /* Tail.hpp */,
+				B20203252E7F225E00D22A76 /* Tail.cpp */,
+				B20203262E7F225E00D22A76 /* TakableObject.hpp */,
+				B20203272E7F225E00D22A76 /* TakableObject.cpp */,
+				B20203282E7F225E00D22A76 /* Vector.hpp */,
+				B20203292E7F225E00D22A76 /* Vector.cpp */,
+				B202032A2E7F225E00D22A76 /* Wall.hpp */,
+				B202032B2E7F225E00D22A76 /* Wall.cpp */,
+			);
+			name = lib;
+			path = ../lib;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B202024B2E61F73100D22A76 /* Snake-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20202672E61F73200D22A76 /* Build configuration list for PBXNativeTarget "Snake-iOS" */;
+			buildPhases = (
+				B20202482E61F73100D22A76 /* Sources */,
+				B20202492E61F73100D22A76 /* Frameworks */,
+				B202024A2E61F73100D22A76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B202024E2E61F73100D22A76 /* Snake-iOS */,
+			);
+			name = "Snake-iOS";
+			packageProductDependencies = (
+			);
+			productName = "Snake-iOS";
+			productReference = B202024C2E61F73100D22A76 /* Snake-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B20202442E61F73100D22A76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					B202024B2E61F73100D22A76 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = B20202472E61F73100D22A76 /* Build configuration list for PBXProject "Snake-iOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B20202432E61F73100D22A76;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B202024D2E61F73100D22A76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B202024B2E61F73100D22A76 /* Snake-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B202024A2E61F73100D22A76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20202F72E7C83F900D22A76 /* bullet.obj in Resources */,
+				B20202FA2E7C844700D22A76 /* f16_model.obj in Resources */,
+				B20202FB2E7C844700D22A76 /* car_model.obj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B20202482E61F73100D22A76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B202032D2E7F225E00D22A76 /* Player.cpp in Sources */,
+				B202032E2E7F225E00D22A76 /* BaseGame.cpp in Sources */,
+				B202032F2E7F225E00D22A76 /* Car.cpp in Sources */,
+				B20203302E7F225E00D22A76 /* Sphere.cpp in Sources */,
+				B20203312E7F225E00D22A76 /* SnakeGame.cpp in Sources */,
+				B20203322E7F225E00D22A76 /* Vector.cpp in Sources */,
+				B20203332E7F225E00D22A76 /* Level.cpp in Sources */,
+				B20203342E7F225E00D22A76 /* Entity.cpp in Sources */,
+				B20203352E7F225E00D22A76 /* Wall.cpp in Sources */,
+				B20203362E7F225E00D22A76 /* Plane.cpp in Sources */,
+				B20203372E7F225E00D22A76 /* Ball.cpp in Sources */,
+				B20203382E7F225E00D22A76 /* Tail.cpp in Sources */,
+				B20203392E7F225E00D22A76 /* Door.cpp in Sources */,
+				B202033A2E7F225E00D22A76 /* SnakeRenderer.cpp in Sources */,
+				B202033B2E7F225E00D22A76 /* Prize.cpp in Sources */,
+				B202033C2E7F225E00D22A76 /* Bullet.cpp in Sources */,
+				B202033D2E7F225E00D22A76 /* Matrix.cpp in Sources */,
+				B202033E2E7F225E00D22A76 /* TakableObject.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B20202652E61F73200D22A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					GLES_SILENCE_DEPRECATION,
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B20202662E61F73200D22A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = GLES_SILENCE_DEPRECATION;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B20202682E61F73200D22A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VV79D348E;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = metal;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Snake-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B20202692E61F73200D22A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VV79D348E;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = metal;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Snake-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B20202472E61F73100D22A76 /* Build configuration list for PBXProject "Snake-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20202652E61F73200D22A76 /* Debug */,
+				B20202662E61F73200D22A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20202672E61F73200D22A76 /* Build configuration list for PBXNativeTarget "Snake-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20202682E61F73200D22A76 /* Debug */,
+				B20202692E61F73200D22A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B20202442E61F73100D22A76 /* Project object */;
+}
