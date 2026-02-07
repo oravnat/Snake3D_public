@@ -201,6 +201,19 @@ Matrix Matrix::Transpose() const
 	return result;
 }
 
+Vector Matrix::MultVec(const Vector& r) const
+{
+	Vector result;
+	for (int i = 0; i < 3; i++)
+	{
+		t_float val = 0.0;
+		for (int k = 0; k < 3; k++)
+			val += v[k][i] * r[k];
+		result[i] = val;
+	}
+	return result;
+}
+
 
 Matrix operator*(const Matrix& l, const Matrix& r)
 {

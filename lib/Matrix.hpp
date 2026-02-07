@@ -38,6 +38,7 @@ public:
 	t_float* operator[](int index);
 	const t_float* operator[](int index) const;
 	Matrix Transpose() const;
+	Vector MultVec(const Vector& r) const; // r is considered as (x, y, z, 0) here ( unlike (x, y, z, 1) in operator* )
 public:
 	static Matrix RotateX(t_float angle);
 	static Matrix RotateY(t_float angle);
