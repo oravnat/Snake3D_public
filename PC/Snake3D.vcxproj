@@ -19,54 +19,54 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\lib\Ball.cpp" />
     <ClCompile Include="..\lib\BaseGame.cpp" />
-    <ClCompile Include="..\lib\Bullet.cpp" />
-    <ClCompile Include="..\lib\Car.cpp" />
-    <ClCompile Include="..\lib\Door.cpp" />
-    <ClCompile Include="..\lib\Entity.cpp" />
-    <ClCompile Include="..\lib\Level.cpp" />
+    <ClCompile Include="..\lib\examples\SnakeGame\Ball.cpp" />
+    <ClCompile Include="..\lib\examples\SnakeGame\Bullet.cpp" />
+    <ClCompile Include="..\lib\examples\SnakeGame\Car.cpp" />
+    <ClCompile Include="..\lib\examples\SnakeGame\Door.cpp" />
+    <ClCompile Include="..\lib\examples\SnakeGame\Entity.cpp" />
+    <ClCompile Include="..\lib\examples\SnakeGame\Level.cpp" />
+    <ClCompile Include="..\lib\examples\SnakeGame\Plane.cpp" />
+    <ClCompile Include="..\lib\examples\SnakeGame\Player.cpp" />
+    <ClCompile Include="..\lib\examples\SnakeGame\Prize.cpp" />
+    <ClCompile Include="..\lib\examples\SnakeGame\SnakeGame.cpp" />
+    <ClCompile Include="..\lib\examples\SnakeGame\Sphere.cpp" />
+    <ClCompile Include="..\lib\examples\SnakeGame\Tail.cpp" />
+    <ClCompile Include="..\lib\examples\SnakeGame\TakableObject.cpp" />
+    <ClCompile Include="..\lib\examples\SnakeGame\Wall.cpp" />
     <ClCompile Include="..\lib\Matrix.cpp" />
-    <ClCompile Include="..\lib\Plane.cpp" />
-    <ClCompile Include="..\lib\Player.cpp" />
-    <ClCompile Include="..\lib\Prize.cpp" />
-    <ClCompile Include="..\lib\SnakeGame.cpp" />
     <ClCompile Include="..\lib\SnakeRenderer.cpp" />
-    <ClCompile Include="..\lib\Sphere.cpp" />
-    <ClCompile Include="..\lib\Tail.cpp" />
-    <ClCompile Include="..\lib\TakableObject.cpp" />
     <ClCompile Include="..\lib\Vector.cpp" />
-    <ClCompile Include="..\lib\Wall.cpp" />
     <ClCompile Include="PlatformPC.cpp" />
     <ClCompile Include="snake3d3_main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\lib\Ball.hpp" />
     <ClInclude Include="..\lib\BaseGame.hpp" />
-    <ClInclude Include="..\lib\Bullet.hpp" />
-    <ClInclude Include="..\lib\Car.hpp" />
-    <ClInclude Include="..\lib\defines.hpp" />
-    <ClInclude Include="..\lib\Door.hpp" />
-    <ClInclude Include="..\lib\Entity.hpp" />
+    <ClInclude Include="..\lib\examples\SnakeGame\Ball.hpp" />
+    <ClInclude Include="..\lib\examples\SnakeGame\Bullet.hpp" />
+    <ClInclude Include="..\lib\examples\SnakeGame\Car.hpp" />
+    <ClInclude Include="..\lib\examples\SnakeGame\defines.hpp" />
+    <ClInclude Include="..\lib\examples\SnakeGame\Door.hpp" />
+    <ClInclude Include="..\lib\examples\SnakeGame\Entity.hpp" />
+    <ClInclude Include="..\lib\examples\SnakeGame\Level.hpp" />
+    <ClInclude Include="..\lib\examples\SnakeGame\Plane.hpp" />
+    <ClInclude Include="..\lib\examples\SnakeGame\Player.hpp" />
+    <ClInclude Include="..\lib\examples\SnakeGame\Prize.hpp" />
+    <ClInclude Include="..\lib\examples\SnakeGame\SnakeGame.hpp" />
+    <ClInclude Include="..\lib\examples\SnakeGame\Sphere.hpp" />
+    <ClInclude Include="..\lib\examples\SnakeGame\Tail.hpp" />
+    <ClInclude Include="..\lib\examples\SnakeGame\TakableObject.hpp" />
+    <ClInclude Include="..\lib\examples\SnakeGame\Wall.hpp" />
     <ClInclude Include="..\lib\GL\freeglut.h" />
     <ClInclude Include="..\lib\GL\freeglut_ext.h" />
     <ClInclude Include="..\lib\GL\freeglut_std.h" />
     <ClInclude Include="..\lib\GL\glew.h" />
-    <ClInclude Include="..\lib\Level.hpp" />
     <ClInclude Include="..\lib\Matrix.hpp" />
     <ClInclude Include="..\lib\MeshReader.hpp" />
     <ClInclude Include="..\lib\Model.hpp" />
     <ClInclude Include="..\lib\OpenGL.hpp" />
-    <ClInclude Include="..\lib\Plane.hpp" />
-    <ClInclude Include="..\lib\Player.hpp" />
-    <ClInclude Include="..\lib\Prize.hpp" />
-    <ClInclude Include="..\lib\SnakeGame.hpp" />
     <ClInclude Include="..\lib\SnakeRenderer.hpp" />
-    <ClInclude Include="..\lib\Sphere.hpp" />
-    <ClInclude Include="..\lib\Tail.hpp" />
-    <ClInclude Include="..\lib\TakableObject.hpp" />
     <ClInclude Include="..\lib\Vector.hpp" />
-    <ClInclude Include="..\lib\Wall.hpp" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="glew32.lib" />

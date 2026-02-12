@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "Entity.hpp"
+#include "examples/SnakeGame/Entity.hpp"
 #include <vector>
 
 #define MAX_ENTITIES 100

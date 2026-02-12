@@ -22,6 +22,12 @@
     <Filter Include="Header Files\GL">
       <UniqueIdentifier>{fb6b4744-7812-4fc6-a023-581cc16f2e73}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\SnakeGame">
+      <UniqueIdentifier>{f0e33174-8c56-48c5-b225-11bb177fa338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SnakeGame">
+      <UniqueIdentifier>{7834fd86-a638-4abd-8cfa-e102eb0c71aa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PlatformPC.cpp">
@@ -30,84 +36,63 @@
     <ClCompile Include="snake3d3_main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\lib\Ball.cpp">
-      <Filter>Source Files\lib</Filter>
-    </ClCompile>
     <ClCompile Include="..\lib\BaseGame.cpp">
-      <Filter>Source Files\lib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\lib\Bullet.cpp">
-      <Filter>Source Files\lib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\lib\Car.cpp">
-      <Filter>Source Files\lib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\lib\Door.cpp">
-      <Filter>Source Files\lib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\lib\Entity.cpp">
-      <Filter>Source Files\lib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\lib\Level.cpp">
       <Filter>Source Files\lib</Filter>
     </ClCompile>
     <ClCompile Include="..\lib\Matrix.cpp">
       <Filter>Source Files\lib</Filter>
     </ClCompile>
-    <ClCompile Include="..\lib\Plane.cpp">
-      <Filter>Source Files\lib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\lib\Player.cpp">
-      <Filter>Source Files\lib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\lib\Prize.cpp">
-      <Filter>Source Files\lib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\lib\SnakeGame.cpp">
-      <Filter>Source Files\lib</Filter>
-    </ClCompile>
     <ClCompile Include="..\lib\SnakeRenderer.cpp">
-      <Filter>Source Files\lib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\lib\Sphere.cpp">
-      <Filter>Source Files\lib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\lib\Tail.cpp">
-      <Filter>Source Files\lib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\lib\TakableObject.cpp">
       <Filter>Source Files\lib</Filter>
     </ClCompile>
     <ClCompile Include="..\lib\Vector.cpp">
       <Filter>Source Files\lib</Filter>
     </ClCompile>
-    <ClCompile Include="..\lib\Wall.cpp">
-      <Filter>Source Files\lib</Filter>
+    <ClCompile Include="..\lib\examples\SnakeGame\Ball.cpp">
+      <Filter>Source Files\SnakeGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\examples\SnakeGame\Bullet.cpp">
+      <Filter>Source Files\SnakeGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\examples\SnakeGame\Car.cpp">
+      <Filter>Source Files\SnakeGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\examples\SnakeGame\Door.cpp">
+      <Filter>Source Files\SnakeGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\examples\SnakeGame\Entity.cpp">
+      <Filter>Source Files\SnakeGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\examples\SnakeGame\Level.cpp">
+      <Filter>Source Files\SnakeGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\examples\SnakeGame\Plane.cpp">
+      <Filter>Source Files\SnakeGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\examples\SnakeGame\Player.cpp">
+      <Filter>Source Files\SnakeGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\examples\SnakeGame\Prize.cpp">
+      <Filter>Source Files\SnakeGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\examples\SnakeGame\SnakeGame.cpp">
+      <Filter>Source Files\SnakeGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\examples\SnakeGame\Sphere.cpp">
+      <Filter>Source Files\SnakeGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\examples\SnakeGame\Tail.cpp">
+      <Filter>Source Files\SnakeGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\examples\SnakeGame\TakableObject.cpp">
+      <Filter>Source Files\SnakeGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\examples\SnakeGame\Wall.cpp">
+      <Filter>Source Files\SnakeGame</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\lib\Ball.hpp">
-      <Filter>Header Files\lib</Filter>
-    </ClInclude>
     <ClInclude Include="..\lib\BaseGame.hpp">
-      <Filter>Header Files\lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\lib\Bullet.hpp">
-      <Filter>Header Files\lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\lib\Car.hpp">
-      <Filter>Header Files\lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\lib\defines.hpp">
-      <Filter>Header Files\lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\lib\Door.hpp">
-      <Filter>Header Files\lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\lib\Entity.hpp">
-      <Filter>Header Files\lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\lib\Level.hpp">
       <Filter>Header Files\lib</Filter>
     </ClInclude>
     <ClInclude Include="..\lib\Matrix.hpp">
@@ -122,34 +107,10 @@
     <ClInclude Include="..\lib\OpenGL.hpp">
       <Filter>Header Files\lib</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\Plane.hpp">
-      <Filter>Header Files\lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\lib\Player.hpp">
-      <Filter>Header Files\lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\lib\Prize.hpp">
-      <Filter>Header Files\lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\lib\SnakeGame.hpp">
-      <Filter>Header Files\lib</Filter>
-    </ClInclude>
     <ClInclude Include="..\lib\SnakeRenderer.hpp">
       <Filter>Header Files\lib</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\Sphere.hpp">
-      <Filter>Header Files\lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\lib\Tail.hpp">
-      <Filter>Header Files\lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\lib\TakableObject.hpp">
-      <Filter>Header Files\lib</Filter>
-    </ClInclude>
     <ClInclude Include="..\lib\Vector.hpp">
-      <Filter>Header Files\lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\lib\Wall.hpp">
       <Filter>Header Files\lib</Filter>
     </ClInclude>
     <ClInclude Include="..\lib\GL\freeglut.h">
@@ -163,6 +124,51 @@
     </ClInclude>
     <ClInclude Include="..\lib\GL\glew.h">
       <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\examples\SnakeGame\Ball.hpp">
+      <Filter>Header Files\SnakeGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\examples\SnakeGame\Bullet.hpp">
+      <Filter>Header Files\SnakeGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\examples\SnakeGame\Car.hpp">
+      <Filter>Header Files\SnakeGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\examples\SnakeGame\defines.hpp">
+      <Filter>Header Files\SnakeGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\examples\SnakeGame\Door.hpp">
+      <Filter>Header Files\SnakeGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\examples\SnakeGame\Level.hpp">
+      <Filter>Header Files\SnakeGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\examples\SnakeGame\Plane.hpp">
+      <Filter>Header Files\SnakeGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\examples\SnakeGame\Player.hpp">
+      <Filter>Header Files\SnakeGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\examples\SnakeGame\Prize.hpp">
+      <Filter>Header Files\SnakeGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\examples\SnakeGame\SnakeGame.hpp">
+      <Filter>Header Files\SnakeGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\examples\SnakeGame\Sphere.hpp">
+      <Filter>Header Files\SnakeGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\examples\SnakeGame\Tail.hpp">
+      <Filter>Header Files\SnakeGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\examples\SnakeGame\TakableObject.hpp">
+      <Filter>Header Files\SnakeGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\examples\SnakeGame\Wall.hpp">
+      <Filter>Header Files\SnakeGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\examples\SnakeGame\Entity.hpp">
+      <Filter>Header Files\SnakeGame</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

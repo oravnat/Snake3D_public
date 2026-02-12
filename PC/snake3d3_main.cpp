@@ -41,7 +41,7 @@
 #include "GL/glew.h"
 #include "GL/freeglut.h"
 #endif
-#include "SnakeGame.hpp"
+#include "examples/SnakeGame/SnakeGame.hpp"
 //#include "Menu.h"
 
 using namespace std;
