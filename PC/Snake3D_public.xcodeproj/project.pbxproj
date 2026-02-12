@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B26E9BAC2F3E644F002631F1 /* Door.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B26E9B972F3E60EC002631F1 /* Door.cpp */; };
+		B26E9BAD2F3E644F002631F1 /* Level.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B26E9B9B2F3E60EC002631F1 /* Level.cpp */; };
+		B26E9BAE2F3E644F002631F1 /* SnakeGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B26E9BA32F3E60EC002631F1 /* SnakeGame.cpp */; };
+		B26E9BAF2F3E644F002631F1 /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B26E9B992F3E60EC002631F1 /* Entity.cpp */; };
+		B26E9BB02F3E644F002631F1 /* Wall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B26E9BAB2F3E60EC002631F1 /* Wall.cpp */; };
+		B26E9BB12F3E644F002631F1 /* Bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B26E9B922F3E60EC002631F1 /* Bullet.cpp */; };
+		B26E9BB22F3E644F002631F1 /* Sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B26E9BA52F3E60EC002631F1 /* Sphere.cpp */; };
+		B26E9BB32F3E644F002631F1 /* Ball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B26E9B902F3E60EC002631F1 /* Ball.cpp */; };
+		B26E9BB42F3E644F002631F1 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B26E9B9F2F3E60EC002631F1 /* Player.cpp */; };
+		B26E9BB52F3E644F002631F1 /* TakableObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B26E9BA92F3E60EC002631F1 /* TakableObject.cpp */; };
+		B26E9BB62F3E644F002631F1 /* Plane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B26E9B9D2F3E60EC002631F1 /* Plane.cpp */; };
+		B26E9BB72F3E644F002631F1 /* Prize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B26E9BA12F3E60EC002631F1 /* Prize.cpp */; };
+		B26E9BB82F3E644F002631F1 /* Tail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B26E9BA72F3E60EC002631F1 /* Tail.cpp */; };
+		B26E9BB92F3E644F002631F1 /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B26E9B942F3E60EC002631F1 /* Car.cpp */; };
 		B2B52EF42E1D9C71000BB2E0 /* snake3d3_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52EF32E1D9C71000BB2E0 /* snake3d3_main.cpp */; };
-		B2B52F112E1D9F5B000BB2E0 /* Bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52EFA2E1D9F5B000BB2E0 /* Bullet.cpp */; };
-		B2B52F122E1D9F5B000BB2E0 /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52EFE2E1D9F5B000BB2E0 /* Entity.cpp */; };
-		B2B52F132E1D9F5B000BB2E0 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52F042E1D9F5B000BB2E0 /* Player.cpp */; };
-		B2B52F142E1D9F5B000BB2E0 /* Tail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52F0C2E1D9F5B000BB2E0 /* Tail.cpp */; };
 		B2B52F152E1D9F5B000BB2E0 /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52F0E2E1D9F5B000BB2E0 /* Vector.cpp */; };
-		B2B52F162E1D9F5B000BB2E0 /* SnakeGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52F082E1D9F5B000BB2E0 /* SnakeGame.cpp */; };
 		B2B52F172E1D9F5B000BB2E0 /* SnakeRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52F0A2E1D9F5B000BB2E0 /* SnakeRenderer.cpp */; };
-		B2B52F182E1D9F5B000BB2E0 /* Ball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52EF62E1D9F5B000BB2E0 /* Ball.cpp */; };
-		B2B52F192E1D9F5B000BB2E0 /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52EFC2E1D9F5B000BB2E0 /* Car.cpp */; };
-		B2B52F1A2E1D9F5B000BB2E0 /* Prize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52F062E1D9F5B000BB2E0 /* Prize.cpp */; };
-		B2B52F1B2E1D9F5B000BB2E0 /* Wall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52F102E1D9F5B000BB2E0 /* Wall.cpp */; };
 		B2B52F1C2E1D9F5B000BB2E0 /* BaseGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52EF82E1D9F5B000BB2E0 /* BaseGame.cpp */; };
-		B2B52F1D2E1D9F5B000BB2E0 /* Level.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52EFF2E1D9F5B000BB2E0 /* Level.cpp */; };
 		B2B52F1E2E1D9F5B000BB2E0 /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52F012E1D9F5B000BB2E0 /* Matrix.cpp */; };
-		B2B52F272E1E80CB000BB2E0 /* Plane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52F262E1E80CB000BB2E0 /* Plane.cpp */; };
-		B2B52F2B2E1E897D000BB2E0 /* Sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52F2A2E1E897D000BB2E0 /* Sphere.cpp */; };
-		B2B52F2E2E1E89B4000BB2E0 /* Door.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52F2D2E1E89B4000BB2E0 /* Door.cpp */; };
-		B2B52F322E1E8C73000BB2E0 /* TakableObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52F312E1E8C73000BB2E0 /* TakableObject.cpp */; };
 		B2B52F352E1E92EF000BB2E0 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B52F342E1E92EF000BB2E0 /* GLUT.framework */; };
 		B2B52F372E1E92F4000BB2E0 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B52F362E1E92F4000BB2E0 /* OpenGL.framework */; };
 		B2B52F392E2A9030000BB2E0 /* PlatformPC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B52F382E2A9030000BB2E0 /* PlatformPC.cpp */; };
@@ -46,48 +46,48 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B26E9B8F2F3E60EC002631F1 /* Ball.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Ball.hpp; path = ../lib/examples/SnakeGame/Ball.hpp; sourceTree = SOURCE_ROOT; };
+		B26E9B902F3E60EC002631F1 /* Ball.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Ball.cpp; path = ../lib/examples/SnakeGame/Ball.cpp; sourceTree = SOURCE_ROOT; };
+		B26E9B912F3E60EC002631F1 /* Bullet.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Bullet.hpp; path = ../lib/examples/SnakeGame/Bullet.hpp; sourceTree = SOURCE_ROOT; };
+		B26E9B922F3E60EC002631F1 /* Bullet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bullet.cpp; path = ../lib/examples/SnakeGame/Bullet.cpp; sourceTree = SOURCE_ROOT; };
+		B26E9B932F3E60EC002631F1 /* Car.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Car.hpp; path = ../lib/examples/SnakeGame/Car.hpp; sourceTree = SOURCE_ROOT; };
+		B26E9B942F3E60EC002631F1 /* Car.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Car.cpp; path = ../lib/examples/SnakeGame/Car.cpp; sourceTree = SOURCE_ROOT; };
+		B26E9B952F3E60EC002631F1 /* defines.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = defines.hpp; path = ../lib/examples/SnakeGame/defines.hpp; sourceTree = SOURCE_ROOT; };
+		B26E9B962F3E60EC002631F1 /* Door.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Door.hpp; path = ../lib/examples/SnakeGame/Door.hpp; sourceTree = SOURCE_ROOT; };
+		B26E9B972F3E60EC002631F1 /* Door.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Door.cpp; path = ../lib/examples/SnakeGame/Door.cpp; sourceTree = SOURCE_ROOT; };
+		B26E9B982F3E60EC002631F1 /* Entity.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Entity.hpp; path = ../lib/examples/SnakeGame/Entity.hpp; sourceTree = SOURCE_ROOT; };
+		B26E9B992F3E60EC002631F1 /* Entity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Entity.cpp; path = ../lib/examples/SnakeGame/Entity.cpp; sourceTree = SOURCE_ROOT; };
+		B26E9B9A2F3E60EC002631F1 /* Level.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Level.hpp; path = ../lib/examples/SnakeGame/Level.hpp; sourceTree = SOURCE_ROOT; };
+		B26E9B9B2F3E60EC002631F1 /* Level.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Level.cpp; path = ../lib/examples/SnakeGame/Level.cpp; sourceTree = SOURCE_ROOT; };
+		B26E9B9C2F3E60EC002631F1 /* Plane.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Plane.hpp; path = ../lib/examples/SnakeGame/Plane.hpp; sourceTree = SOURCE_ROOT; };
+		B26E9B9D2F3E60EC002631F1 /* Plane.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Plane.cpp; path = ../lib/examples/SnakeGame/Plane.cpp; sourceTree = SOURCE_ROOT; };
+		B26E9B9E2F3E60EC002631F1 /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Player.hpp; path = ../lib/examples/SnakeGame/Player.hpp; sourceTree = SOURCE_ROOT; };
+		B26E9B9F2F3E60EC002631F1 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Player.cpp; path = ../lib/examples/SnakeGame/Player.cpp; sourceTree = SOURCE_ROOT; };
+		B26E9BA02F3E60EC002631F1 /* Prize.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Prize.hpp; path = ../lib/examples/SnakeGame/Prize.hpp; sourceTree = SOURCE_ROOT; };
+		B26E9BA12F3E60EC002631F1 /* Prize.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Prize.cpp; path = ../lib/examples/SnakeGame/Prize.cpp; sourceTree = SOURCE_ROOT; };
+		B26E9BA22F3E60EC002631F1 /* SnakeGame.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = SnakeGame.hpp; path = ../lib/examples/SnakeGame/SnakeGame.hpp; sourceTree = SOURCE_ROOT; };
+		B26E9BA32F3E60EC002631F1 /* SnakeGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SnakeGame.cpp; path = ../lib/examples/SnakeGame/SnakeGame.cpp; sourceTree = SOURCE_ROOT; };
+		B26E9BA42F3E60EC002631F1 /* Sphere.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Sphere.hpp; path = ../lib/examples/SnakeGame/Sphere.hpp; sourceTree = SOURCE_ROOT; };
+		B26E9BA52F3E60EC002631F1 /* Sphere.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Sphere.cpp; path = ../lib/examples/SnakeGame/Sphere.cpp; sourceTree = SOURCE_ROOT; };
+		B26E9BA62F3E60EC002631F1 /* Tail.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Tail.hpp; path = ../lib/examples/SnakeGame/Tail.hpp; sourceTree = SOURCE_ROOT; };
+		B26E9BA72F3E60EC002631F1 /* Tail.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Tail.cpp; path = ../lib/examples/SnakeGame/Tail.cpp; sourceTree = SOURCE_ROOT; };
+		B26E9BA82F3E60EC002631F1 /* TakableObject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = TakableObject.hpp; path = ../lib/examples/SnakeGame/TakableObject.hpp; sourceTree = SOURCE_ROOT; };
+		B26E9BA92F3E60EC002631F1 /* TakableObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TakableObject.cpp; path = ../lib/examples/SnakeGame/TakableObject.cpp; sourceTree = SOURCE_ROOT; };
+		B26E9BAA2F3E60EC002631F1 /* Wall.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Wall.hpp; path = ../lib/examples/SnakeGame/Wall.hpp; sourceTree = SOURCE_ROOT; };
+		B26E9BAB2F3E60EC002631F1 /* Wall.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Wall.cpp; path = ../lib/examples/SnakeGame/Wall.cpp; sourceTree = SOURCE_ROOT; };
 		B2B52EE82E06D0D0000BB2E0 /* Snake3D_public */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Snake3D_public; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2B52EF32E1D9C71000BB2E0 /* snake3d3_main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = snake3d3_main.cpp; sourceTree = "<group>"; };
-		B2B52EF52E1D9F5B000BB2E0 /* Ball.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Ball.hpp; path = ../lib/Ball.hpp; sourceTree = SOURCE_ROOT; };
-		B2B52EF62E1D9F5B000BB2E0 /* Ball.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Ball.cpp; path = ../lib/Ball.cpp; sourceTree = SOURCE_ROOT; };
 		B2B52EF72E1D9F5B000BB2E0 /* BaseGame.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = BaseGame.hpp; path = ../lib/BaseGame.hpp; sourceTree = SOURCE_ROOT; };
 		B2B52EF82E1D9F5B000BB2E0 /* BaseGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BaseGame.cpp; path = ../lib/BaseGame.cpp; sourceTree = SOURCE_ROOT; };
-		B2B52EF92E1D9F5B000BB2E0 /* Bullet.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Bullet.hpp; path = ../lib/Bullet.hpp; sourceTree = SOURCE_ROOT; };
-		B2B52EFA2E1D9F5B000BB2E0 /* Bullet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bullet.cpp; path = ../lib/Bullet.cpp; sourceTree = SOURCE_ROOT; };
-		B2B52EFB2E1D9F5B000BB2E0 /* Car.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Car.hpp; path = ../lib/Car.hpp; sourceTree = SOURCE_ROOT; };
-		B2B52EFC2E1D9F5B000BB2E0 /* Car.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Car.cpp; path = ../lib/Car.cpp; sourceTree = SOURCE_ROOT; };
-		B2B52EFD2E1D9F5B000BB2E0 /* Entity.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Entity.hpp; path = ../lib/Entity.hpp; sourceTree = SOURCE_ROOT; };
-		B2B52EFE2E1D9F5B000BB2E0 /* Entity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Entity.cpp; path = ../lib/Entity.cpp; sourceTree = SOURCE_ROOT; };
-		B2B52EFF2E1D9F5B000BB2E0 /* Level.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Level.cpp; path = ../lib/Level.cpp; sourceTree = SOURCE_ROOT; };
 		B2B52F002E1D9F5B000BB2E0 /* Matrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Matrix.hpp; path = ../lib/Matrix.hpp; sourceTree = SOURCE_ROOT; };
 		B2B52F012E1D9F5B000BB2E0 /* Matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Matrix.cpp; path = ../lib/Matrix.cpp; sourceTree = SOURCE_ROOT; };
 		B2B52F022E1D9F5B000BB2E0 /* MeshReader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = MeshReader.hpp; path = ../lib/MeshReader.hpp; sourceTree = SOURCE_ROOT; };
-		B2B52F032E1D9F5B000BB2E0 /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Player.hpp; path = ../lib/Player.hpp; sourceTree = SOURCE_ROOT; };
-		B2B52F042E1D9F5B000BB2E0 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Player.cpp; path = ../lib/Player.cpp; sourceTree = SOURCE_ROOT; };
-		B2B52F052E1D9F5B000BB2E0 /* Prize.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Prize.hpp; path = ../lib/Prize.hpp; sourceTree = SOURCE_ROOT; };
-		B2B52F062E1D9F5B000BB2E0 /* Prize.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Prize.cpp; path = ../lib/Prize.cpp; sourceTree = SOURCE_ROOT; };
-		B2B52F072E1D9F5B000BB2E0 /* SnakeGame.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = SnakeGame.hpp; path = ../lib/SnakeGame.hpp; sourceTree = SOURCE_ROOT; };
-		B2B52F082E1D9F5B000BB2E0 /* SnakeGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SnakeGame.cpp; path = ../lib/SnakeGame.cpp; sourceTree = SOURCE_ROOT; };
 		B2B52F092E1D9F5B000BB2E0 /* SnakeRenderer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = SnakeRenderer.hpp; path = ../lib/SnakeRenderer.hpp; sourceTree = SOURCE_ROOT; };
 		B2B52F0A2E1D9F5B000BB2E0 /* SnakeRenderer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SnakeRenderer.cpp; path = ../lib/SnakeRenderer.cpp; sourceTree = SOURCE_ROOT; };
-		B2B52F0B2E1D9F5B000BB2E0 /* Tail.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Tail.hpp; path = ../lib/Tail.hpp; sourceTree = SOURCE_ROOT; };
-		B2B52F0C2E1D9F5B000BB2E0 /* Tail.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Tail.cpp; path = ../lib/Tail.cpp; sourceTree = SOURCE_ROOT; };
 		B2B52F0D2E1D9F5B000BB2E0 /* Vector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Vector.hpp; path = ../lib/Vector.hpp; sourceTree = SOURCE_ROOT; };
 		B2B52F0E2E1D9F5B000BB2E0 /* Vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Vector.cpp; path = ../lib/Vector.cpp; sourceTree = SOURCE_ROOT; };
-		B2B52F0F2E1D9F5B000BB2E0 /* Wall.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Wall.hpp; path = ../lib/Wall.hpp; sourceTree = SOURCE_ROOT; };
-		B2B52F102E1D9F5B000BB2E0 /* Wall.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Wall.cpp; path = ../lib/Wall.cpp; sourceTree = SOURCE_ROOT; };
-		B2B52F232E1DA2DD000BB2E0 /* defines.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = defines.hpp; path = ../lib/defines.hpp; sourceTree = SOURCE_ROOT; };
-		B2B52F242E1DA2DD000BB2E0 /* Level.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Level.hpp; path = ../lib/Level.hpp; sourceTree = SOURCE_ROOT; };
-		B2B52F252E1E80CB000BB2E0 /* Plane.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Plane.hpp; path = ../lib/Plane.hpp; sourceTree = SOURCE_ROOT; };
-		B2B52F262E1E80CB000BB2E0 /* Plane.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Plane.cpp; path = ../lib/Plane.cpp; sourceTree = SOURCE_ROOT; };
 		B2B52F282E1E8943000BB2E0 /* Model.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Model.hpp; path = ../lib/Model.hpp; sourceTree = SOURCE_ROOT; };
-		B2B52F292E1E897D000BB2E0 /* Sphere.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Sphere.hpp; path = ../lib/Sphere.hpp; sourceTree = SOURCE_ROOT; };
-		B2B52F2A2E1E897D000BB2E0 /* Sphere.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Sphere.cpp; path = ../lib/Sphere.cpp; sourceTree = SOURCE_ROOT; };
-		B2B52F2C2E1E89B4000BB2E0 /* Door.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Door.hpp; path = ../lib/Door.hpp; sourceTree = SOURCE_ROOT; };
-		B2B52F2D2E1E89B4000BB2E0 /* Door.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Door.cpp; path = ../lib/Door.cpp; sourceTree = SOURCE_ROOT; };
 		B2B52F2F2E1E8BB4000BB2E0 /* OpenGL.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = OpenGL.hpp; path = ../lib/OpenGL.hpp; sourceTree = SOURCE_ROOT; };
-		B2B52F302E1E8C73000BB2E0 /* TakableObject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = TakableObject.hpp; path = ../lib/TakableObject.hpp; sourceTree = SOURCE_ROOT; };
-		B2B52F312E1E8C73000BB2E0 /* TakableObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TakableObject.cpp; path = ../lib/TakableObject.cpp; sourceTree = SOURCE_ROOT; };
 		B2B52F342E1E92EF000BB2E0 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		B2B52F362E1E92F4000BB2E0 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		B2B52F382E2A9030000BB2E0 /* PlatformPC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlatformPC.cpp; sourceTree = "<group>"; };
@@ -110,52 +110,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B26E9B8E2F3E60AA002631F1 /* SnakeGame */ = {
+			isa = PBXGroup;
+			children = (
+				B26E9B8F2F3E60EC002631F1 /* Ball.hpp */,
+				B26E9B902F3E60EC002631F1 /* Ball.cpp */,
+				B26E9B912F3E60EC002631F1 /* Bullet.hpp */,
+				B26E9B922F3E60EC002631F1 /* Bullet.cpp */,
+				B26E9B932F3E60EC002631F1 /* Car.hpp */,
+				B26E9B942F3E60EC002631F1 /* Car.cpp */,
+				B26E9B952F3E60EC002631F1 /* defines.hpp */,
+				B26E9B962F3E60EC002631F1 /* Door.hpp */,
+				B26E9B972F3E60EC002631F1 /* Door.cpp */,
+				B26E9B982F3E60EC002631F1 /* Entity.hpp */,
+				B26E9B992F3E60EC002631F1 /* Entity.cpp */,
+				B26E9B9A2F3E60EC002631F1 /* Level.hpp */,
+				B26E9B9B2F3E60EC002631F1 /* Level.cpp */,
+				B26E9B9C2F3E60EC002631F1 /* Plane.hpp */,
+				B26E9B9D2F3E60EC002631F1 /* Plane.cpp */,
+				B26E9B9E2F3E60EC002631F1 /* Player.hpp */,
+				B26E9B9F2F3E60EC002631F1 /* Player.cpp */,
+				B26E9BA02F3E60EC002631F1 /* Prize.hpp */,
+				B26E9BA12F3E60EC002631F1 /* Prize.cpp */,
+				B26E9BA22F3E60EC002631F1 /* SnakeGame.hpp */,
+				B26E9BA32F3E60EC002631F1 /* SnakeGame.cpp */,
+				B26E9BA42F3E60EC002631F1 /* Sphere.hpp */,
+				B26E9BA52F3E60EC002631F1 /* Sphere.cpp */,
+				B26E9BA62F3E60EC002631F1 /* Tail.hpp */,
+				B26E9BA72F3E60EC002631F1 /* Tail.cpp */,
+				B26E9BA82F3E60EC002631F1 /* TakableObject.hpp */,
+				B26E9BA92F3E60EC002631F1 /* TakableObject.cpp */,
+				B26E9BAA2F3E60EC002631F1 /* Wall.hpp */,
+				B26E9BAB2F3E60EC002631F1 /* Wall.cpp */,
+			);
+			path = SnakeGame;
+			sourceTree = "<group>";
+		};
 		B2B52EDF2E06D0D0000BB2E0 = {
 			isa = PBXGroup;
 			children = (
-				B2B52F382E2A9030000BB2E0 /* PlatformPC.cpp */,
 				B2B52EE92E06D0D0000BB2E0 /* Products */,
+				B26E9B8E2F3E60AA002631F1 /* SnakeGame */,
+				B2B52F382E2A9030000BB2E0 /* PlatformPC.cpp */,
 				B2B52EF32E1D9C71000BB2E0 /* snake3d3_main.cpp */,
-				B2B52EF52E1D9F5B000BB2E0 /* Ball.hpp */,
-				B2B52EF62E1D9F5B000BB2E0 /* Ball.cpp */,
 				B2B52EF72E1D9F5B000BB2E0 /* BaseGame.hpp */,
 				B2B52EF82E1D9F5B000BB2E0 /* BaseGame.cpp */,
-				B2B52EF92E1D9F5B000BB2E0 /* Bullet.hpp */,
-				B2B52EFA2E1D9F5B000BB2E0 /* Bullet.cpp */,
-				B2B52EFB2E1D9F5B000BB2E0 /* Car.hpp */,
-				B2B52EFC2E1D9F5B000BB2E0 /* Car.cpp */,
-				B2B52F232E1DA2DD000BB2E0 /* defines.hpp */,
-				B2B52F2C2E1E89B4000BB2E0 /* Door.hpp */,
-				B2B52F2D2E1E89B4000BB2E0 /* Door.cpp */,
-				B2B52EFD2E1D9F5B000BB2E0 /* Entity.hpp */,
-				B2B52EFE2E1D9F5B000BB2E0 /* Entity.cpp */,
-				B2B52F242E1DA2DD000BB2E0 /* Level.hpp */,
-				B2B52EFF2E1D9F5B000BB2E0 /* Level.cpp */,
 				B2B52F002E1D9F5B000BB2E0 /* Matrix.hpp */,
 				B2B52F012E1D9F5B000BB2E0 /* Matrix.cpp */,
 				B2B52F022E1D9F5B000BB2E0 /* MeshReader.hpp */,
 				B2B52F282E1E8943000BB2E0 /* Model.hpp */,
 				B2B52F2F2E1E8BB4000BB2E0 /* OpenGL.hpp */,
-				B2B52F252E1E80CB000BB2E0 /* Plane.hpp */,
-				B2B52F262E1E80CB000BB2E0 /* Plane.cpp */,
-				B2B52F032E1D9F5B000BB2E0 /* Player.hpp */,
-				B2B52F042E1D9F5B000BB2E0 /* Player.cpp */,
-				B2B52F052E1D9F5B000BB2E0 /* Prize.hpp */,
-				B2B52F062E1D9F5B000BB2E0 /* Prize.cpp */,
-				B2B52F072E1D9F5B000BB2E0 /* SnakeGame.hpp */,
-				B2B52F082E1D9F5B000BB2E0 /* SnakeGame.cpp */,
 				B2B52F092E1D9F5B000BB2E0 /* SnakeRenderer.hpp */,
 				B2B52F0A2E1D9F5B000BB2E0 /* SnakeRenderer.cpp */,
-				B2B52F292E1E897D000BB2E0 /* Sphere.hpp */,
-				B2B52F2A2E1E897D000BB2E0 /* Sphere.cpp */,
-				B2B52F0B2E1D9F5B000BB2E0 /* Tail.hpp */,
-				B2B52F0C2E1D9F5B000BB2E0 /* Tail.cpp */,
-				B2B52F302E1E8C73000BB2E0 /* TakableObject.hpp */,
-				B2B52F312E1E8C73000BB2E0 /* TakableObject.cpp */,
 				B2B52F0D2E1D9F5B000BB2E0 /* Vector.hpp */,
 				B2B52F0E2E1D9F5B000BB2E0 /* Vector.cpp */,
-				B2B52F0F2E1D9F5B000BB2E0 /* Wall.hpp */,
-				B2B52F102E1D9F5B000BB2E0 /* Wall.cpp */,
 				B2B52F332E1E92EF000BB2E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -239,24 +247,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2B52F112E1D9F5B000BB2E0 /* Bullet.cpp in Sources */,
-				B2B52F122E1D9F5B000BB2E0 /* Entity.cpp in Sources */,
-				B2B52F132E1D9F5B000BB2E0 /* Player.cpp in Sources */,
-				B2B52F142E1D9F5B000BB2E0 /* Tail.cpp in Sources */,
 				B2B52F152E1D9F5B000BB2E0 /* Vector.cpp in Sources */,
-				B2B52F162E1D9F5B000BB2E0 /* SnakeGame.cpp in Sources */,
 				B2B52F172E1D9F5B000BB2E0 /* SnakeRenderer.cpp in Sources */,
-				B2B52F2B2E1E897D000BB2E0 /* Sphere.cpp in Sources */,
-				B2B52F182E1D9F5B000BB2E0 /* Ball.cpp in Sources */,
-				B2B52F322E1E8C73000BB2E0 /* TakableObject.cpp in Sources */,
-				B2B52F2E2E1E89B4000BB2E0 /* Door.cpp in Sources */,
-				B2B52F192E1D9F5B000BB2E0 /* Car.cpp in Sources */,
-				B2B52F1A2E1D9F5B000BB2E0 /* Prize.cpp in Sources */,
-				B2B52F272E1E80CB000BB2E0 /* Plane.cpp in Sources */,
-				B2B52F1B2E1D9F5B000BB2E0 /* Wall.cpp in Sources */,
 				B2B52F392E2A9030000BB2E0 /* PlatformPC.cpp in Sources */,
+				B26E9BAC2F3E644F002631F1 /* Door.cpp in Sources */,
+				B26E9BAD2F3E644F002631F1 /* Level.cpp in Sources */,
+				B26E9BAE2F3E644F002631F1 /* SnakeGame.cpp in Sources */,
+				B26E9BAF2F3E644F002631F1 /* Entity.cpp in Sources */,
+				B26E9BB02F3E644F002631F1 /* Wall.cpp in Sources */,
+				B26E9BB12F3E644F002631F1 /* Bullet.cpp in Sources */,
+				B26E9BB22F3E644F002631F1 /* Sphere.cpp in Sources */,
+				B26E9BB32F3E644F002631F1 /* Ball.cpp in Sources */,
+				B26E9BB42F3E644F002631F1 /* Player.cpp in Sources */,
+				B26E9BB52F3E644F002631F1 /* TakableObject.cpp in Sources */,
+				B26E9BB62F3E644F002631F1 /* Plane.cpp in Sources */,
+				B26E9BB72F3E644F002631F1 /* Prize.cpp in Sources */,
+				B26E9BB82F3E644F002631F1 /* Tail.cpp in Sources */,
+				B26E9BB92F3E644F002631F1 /* Car.cpp in Sources */,
 				B2B52F1C2E1D9F5B000BB2E0 /* BaseGame.cpp in Sources */,
-				B2B52F1D2E1D9F5B000BB2E0 /* Level.cpp in Sources */,
 				B2B52F1E2E1D9F5B000BB2E0 /* Matrix.cpp in Sources */,
 				B2B52EF42E1D9C71000BB2E0 /* snake3d3_main.cpp in Sources */,
 			);
@@ -385,6 +393,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../lib/";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -393,6 +402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../lib/";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
