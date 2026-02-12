@@ -11,7 +11,7 @@
 #include "Utility.h"
 #include "TextureAsset.h"
 
-#include "lib/SnakeGame.hpp"
+#include "lib/examples/SnakeGame/SnakeGame.hpp"
 
 SnakeGame* g_game;
 SnakeRenderer g_snakeRenderer;

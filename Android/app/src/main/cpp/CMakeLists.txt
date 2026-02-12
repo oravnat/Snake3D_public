@@ -15,24 +15,24 @@ add_library(snake3d SHARED
         TextureAsset.cpp
         Utility.cpp
         PlatformAndroid.cpp
-        lib/BaseGame.cpp
-        lib/Matrix.cpp
         lib/Vector.cpp
-        lib/SnakeGame.cpp
+        lib/Matrix.cpp
         lib/SnakeRenderer.cpp
-        lib/Entity.cpp
-        lib/Ball.cpp
-        lib/Bullet.cpp
-        lib/Car.cpp
-        lib/Door.cpp
-        lib/Level.cpp
-        lib/Plane.cpp
-        lib/Player.cpp
-        lib/Prize.cpp
-        lib/Sphere.cpp
-        lib/Tail.cpp
-        lib/TakableObject.cpp
-        lib/Wall.cpp)
+        lib/BaseGame.cpp
+        lib/examples/SnakeGame/SnakeGame.cpp
+        lib/examples/SnakeGame/Entity.cpp
+        lib/examples/SnakeGame/Ball.cpp
+        lib/examples/SnakeGame/Bullet.cpp
+        lib/examples/SnakeGame/Car.cpp
+        lib/examples/SnakeGame/Door.cpp
+        lib/examples/SnakeGame/Level.cpp
+        lib/examples/SnakeGame/Plane.cpp
+        lib/examples/SnakeGame/Player.cpp
+        lib/examples/SnakeGame/Prize.cpp
+        lib/examples/SnakeGame/Sphere.cpp
+        lib/examples/SnakeGame/Tail.cpp
+        lib/examples/SnakeGame/TakableObject.cpp
+        lib/examples/SnakeGame/Wall.cpp)
 
 # Searches for a package provided by the game activity dependency
 find_package(game-activity REQUIRED CONFIG)
@@ -53,3 +53,9 @@ target_link_libraries(snake3d
         jnigraphics
         android
         log)
+
+
+target_include_directories(snake3d
+        PRIVATE
+        ${PROJECT_SOURCE_DIR}/lib
+)
