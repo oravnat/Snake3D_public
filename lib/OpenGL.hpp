@@ -22,6 +22,7 @@
 #  define glClearDepth glClearDepthf
 #  endif
 #else
+#define GLEW_NO_GLU
 #include "GL/glew.h"
 #endif
 

@@ -13,6 +13,7 @@
 #include <cmath>
 #include <string>
 #include <stdarg.h>
+#include <memory>
 
 using namespace std;
 

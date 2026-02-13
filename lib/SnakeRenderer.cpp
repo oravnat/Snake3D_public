@@ -8,8 +8,6 @@
 
 #include "SnakeRenderer.hpp"
 
-#define _USE_MATH_DEFINES
-
 #include "Vector.hpp"
 #include "Matrix.hpp"
 #include <math.h>

@@ -7,8 +7,6 @@
 #ifndef SNAKE3D3_SNAKERENDERER_H
 #define SNAKE3D3_SNAKERENDERER_H
 
-#define _USE_MATH_DEFINES
-
 #include "Vector.hpp"
 #include "Matrix.hpp"
 #include <math.h>
@@ -21,6 +19,10 @@
 #define SNAKE_LINE_STRIP 0x0003
 #define SNAKE_TRIANGLES 0x0004
 #define SNAKE_TRIANGLE_STRIP 0x0005
+
+#ifndef M_PI
+#define M_PI 3.14159265358979323846
+#endif
 
 class Texture
 {
