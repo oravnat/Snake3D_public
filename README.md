@@ -6,6 +6,8 @@ A multi-platform 3D game and custom engine for iOS/Android/PC/VR
 
 ### Windows
 
+A Visual Studio project is available in the PC directory.
+
 ### macOS
 
 An xcode project is available in the PC directory.
