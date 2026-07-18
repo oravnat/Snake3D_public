@@ -90,6 +90,9 @@
     <ClCompile Include="..\lib\examples\SnakeGame\Wall.cpp">
       <Filter>Source Files\SnakeGame</Filter>
     </ClCompile>
+    <ClCompile Include="..\lib\glew.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\lib\BaseGame.hpp">
@@ -170,8 +173,5 @@
     <ClInclude Include="..\lib\examples\SnakeGame\Entity.hpp">
       <Filter>Header Files\SnakeGame</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Library Include="glew32.lib" />
   </ItemGroup>
 </Project>
